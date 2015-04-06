@@ -2,6 +2,7 @@
     "name": "chan-l",
     "version": "0.0.1",
     "license": "Apache-2.0",
+    
     "repository": {
         "type": "git",
         "url": "https://github.com/christopherbalz/chan-l"
@@ -10,7 +11,7 @@
     "dependencies": {
         "immutable": "*",
         "js-csp": "*",
-        "react-cursor": "git://github.com/dustingetz/react-cursor.git",
+        "baobob": "git://github.com/Yomguithereal/baobab.git",
         "react": "*"
     },
 
@@ -18,6 +19,11 @@
         "webpack": "*",
         "traceur": "*",
         "gulp": "*",
-        "gulp-traceur": "*"
-    }  
+        "gulp-traceur": "*",
+        "webpack-traceur-loader": "*"
+    },
+
+    "bin" : {
+        "webpack" : "./bin/webpack.js"
+    }
 }

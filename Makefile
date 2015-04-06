@@ -1,3 +1,19 @@
-install: npm i
+BIN := ./node_modules/.bin
+BUILD := ./build
 
-clean: rm -rf node_modules
+install:
+	npm i
+
+cb:
+	make clean
+	make build
+
+build:
+	node $(BIN)/webpack
+
+clean:
+	rm -rf build
+
+uninstall:
+	rm -rf node_modules
+	make clean
