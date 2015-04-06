@@ -18,8 +18,6 @@
     "devDependencies": {
         "webpack": "*",
         "traceur": "*",
-        "gulp": "*",
-        "gulp-traceur": "*",
         "webpack-traceur-loader": "*"
     },
 
