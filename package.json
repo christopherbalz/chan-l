@@ -1,0 +1,23 @@
+{
+    "name": "chan-l",
+    "version": "0.0.1",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/christopherbalz/chan-l"
+    },
+    
+    "dependencies": {
+        "immutable": "*",
+        "js-csp": "*",
+        "react-cursor": "git://github.com/dustingetz/react-cursor.git",
+        "react": "*"
+    },
+
+    "devDependencies": {
+        "webpack": "*",
+        "traceur": "*",
+        "gulp": "*",
+        "gulp-traceur": "*"
+    }  
+}
